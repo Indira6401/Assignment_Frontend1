@@ -1,0 +1,66 @@
+.wrapper .sidebar .profile{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+  display: block;
+  width: 100px;
+  height: 100px;
+    border-radius: 50%;
+  margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+  color: #ffffff;
+  margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+  color: rgb(206, 240, 253);
+  font-size: 14px;
+}
+
+button {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.wrapper .sidebar ul li button{
+  display: block;
+  padding: 13px 30px;
+  color: rgb(241, 237, 237);
+  font-size: 16px;
+  position: relative;
+}
+
+.wrapper .sidebar ul li button .icon{
+  color: #dee4ec;
+  width: 30px;
+  display: inline-block;
+}
+
+ .wrapper .sidebar ul li:hover,
+.wrapper .sidebar ul li.active{
+  color: #0c7db1;
+  margin:0;
+   background:white;
+  border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li button:hover{
+  color: #0c7db1;
+}
+
+.wrapper .sidebar ul li:hover .icon,
+.wrapper .sidebar ul li .active .icon{
+  color: #0c7db1;
+}
+
+.wrapper .sidebar ul li:hover:before,
+.wrapper .sidebar ul li .active:before{
+  display: block;
+}
+
+

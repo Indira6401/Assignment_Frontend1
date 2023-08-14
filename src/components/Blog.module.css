@@ -1,0 +1,16 @@
+.blog {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 12px;
+    color: black;
+    display: flex;
+    stroke-linejoin: round;
+  }
+
+  .img{
+    width: 12rem;
+    height: 10rem;
+    margin-right: 1rem;
+  }
